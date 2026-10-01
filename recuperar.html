@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recuperar contraseña | MIKYBARBER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark main-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand site-id" href="index.html">MIKYBARBER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link " href="regisTrO.html">Registrar</a></li>
+<li class="nav-item"><a class="nav-link " href="login.html">Iniciar sesión</a></li>
+<li class="nav-item"><a class="nav-link " href="buzon.html">Buzón</a></li>
+<li class="nav-item"><a class="nav-link " href="ayuda.html">Ayuda</a></li>
+<li class="nav-item"><a class="nav-link " href="contacto.html">Contáctanos</a></li>
+<li class="nav-item"><a class="nav-link " href="mapa-sitio.html">Mapa del sitio</a></li>
+<li class="nav-item"><a class="nav-link" href="unidad2.html">Unidad 2</a></li>
+                </ul>
+                <form class="d-flex site-search ms-lg-3" role="search" action="busqueda.html" method="GET">
+                    <input class="form-control" type="search" name="q" placeholder="Buscar en el sitio" aria-label="Buscar">
+                    <button class="btn btn-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="container form-section">
+            <div class="form-card small-card">
+                <div class="form-intro">
+                    <span class="badge-soft">Cuenta</span>
+                    <h1>Recuperar contraseña</h1>
+                    <p>Escribe tu correo para simular el proceso de recuperación.</p>
+                </div>
+                <form id="formRecuperar" novalidate>
+                    <div class="mb-3"><label for="recuperarCorreo" class="form-label">Correo electrónico</label><input type="email" id="recuperarCorreo" class="form-control" required placeholder="correo@ejemplo.com"></div>
+                    <button class="btn btn-brand w-100" type="submit">Solicitar recuperación</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <section class="floating-chat" aria-label="Acceso rápido al chat">
+        <a href="chat.html">Chat</a>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong>MIKYBARBER</strong>
+                <p>Desarrollo Web Profesional - Unidad 1</p>
+            </div>
+            <div>
+                <a href="ayuda.html">Ayuda</a>
+                <a href="recuperar.html">Recuperar contraseña</a>
+                <a href="mapa-sitio.html">Mapa del sitio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/usuaRios.js"></script>
+    <script src="js/validaciOn.js"></script>
+    <script src="js/busqueda.js"></script>
+
+</body>
+</html>
