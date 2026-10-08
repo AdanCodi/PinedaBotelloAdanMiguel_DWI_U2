@@ -41,14 +41,30 @@
                     <h1>Iniciar sesión</h1>
                     <p>Ingresa con tu correo y contraseña.</p>
                 </div>
-                <form id="formLogin" novalidate>
+                <form
+                    id="formLogin"
+                    action="procesarLogin.php"
+                    method="POST">
                     <div class="mb-3">
                         <label for="loginCorreo" class="form-label">Correo electrónico</label>
-                        <input type="email" id="loginCorreo" class="form-control" required placeholder="correo@ejemplo.com">
+                        <input
+                            type="email"
+                            id="loginCorreo"
+                            name="correo"
+                            class="form-control"
+                            required
+                            placeholder="correo@ejemplo.com">
                     </div>
                     <div class="mb-3">
                         <label for="loginPassword" class="form-label">Contraseña</label>
-                        <input type="password" id="loginPassword" class="form-control" required minlength="8" placeholder="Tu contraseña">
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            name="contrasena"
+                            class="form-control"
+                            required
+                            minlength="8"
+                            placeholder="Tu contraseña">
                     </div>
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <a href="recuperar.html">¿Olvidaste tu contraseña?</a>

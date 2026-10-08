@@ -1,8 +1,8 @@
 <?php
-$host = "sql113.infinityfree.com";
-$usuario = "if0_42082746";
-$password = "CI19AJkn7B0V";
-$base_datos = "if0_42082746_dswp8c";
+$host = "sql304.infinityfree.com";
+$usuario = "if0_43106608";
+$password = "Nmlejdnh0ThngX1";
+$base_datos = "if0_43106608_barberia";
 
 $conexion = new mysqli($host, $usuario, $password, $base_datos);
 
